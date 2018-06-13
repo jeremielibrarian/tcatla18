@@ -43,9 +43,6 @@ title: Getting Started with Markdown and Git
     - [Install pandoc](https://pandoc.org/installing.html) (Use homebrew for Mac OS)
     - use command something like
 
-            pandoc -o [output_docx] -f markdown -t docx [input_md] --smart
+            pandoc -o [output_docx] -f markdown+smart -t docx [input_md]
 
-8. How to use VIM
-    - [Here is the Linux Tutorial](https://www.linux.com/learn/vim-101-beginners-guide-vim)
-
-9. A helpful walk-through on writing with Markdown and Pandoc: [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+8. A helpful walk-through on writing with Markdown and Pandoc: [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
