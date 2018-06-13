@@ -46,3 +46,9 @@ title: Getting Started with Markdown and Git
             pandoc -o [output_docx] -f markdown+smart -t docx [input_md]
 
 8. A helpful walk-through on writing with Markdown and Pandoc: [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+
+9. Integrate with Zotero for bibligraphic management
+
+    - [Install Zotero](https://www.zotero.org/)
+    - Configure more readable citekeys with [Better BibTeX](https://retorque.re/zotero-better-bibtex/installation/)
+    - See nice [Markdown/Pandoc/Zotero tutorial](http://raphaelkabo.com/blog/posts/markdown-to-word) by [Raphael Kabo](https://raphaelkabo.com/)
