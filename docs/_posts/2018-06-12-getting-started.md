@@ -11,14 +11,7 @@ title: Getting Started with Markdown and Git
     - Added a docs directory with an index.md file
     - Turned on GitHub Pages and configured theme in settings
     - Added a \_post directory and added post list to index page
-
-    {% raw %}
-    {% for post in site.posts %}
-    ## [{{ post.title }}]({{ post.url | relative_url }})  
-    {{ post.date | date_to_long_string }}  
-    {{ post.excerpt | strip_html | truncatewords: 50 }}
-    {% endfor %}
-    {% endraw %}
+    ![snapshot of liquid tags for post list]({{ post_list_code.png | relative_url }})
 
 1. Create a [GitHub](https://github.com) account
 2. Accept invite as contributor to repository
