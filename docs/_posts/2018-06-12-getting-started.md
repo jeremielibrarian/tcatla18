@@ -12,11 +12,13 @@ title: Getting Started with Markdown and Git
     - Turned on GitHub Pages and configured theme in settings
     - Added a \_post directory and added post list to index page
 
-        {% for post in site.posts %}
-        ## [{{ post.title }}]({{ post.url | relative_url }})  
-        {{ post.date | date_to_long_string }}  
-        {{ post.excerpt | strip_html | truncatewords: 50 }}
-        {% endfor %}
+    ```
+    {% for post in site.posts %}
+    ## [{{ post.title }}]({{ post.url | relative_url }})  
+    {{ post.date | date_to_long_string }}  
+    {{ post.excerpt | strip_html | truncatewords: 50 }}
+    {% endfor %}
+    ```
 
 1. Create a [GitHub](https://github.com) account
 2. Accept invite as contributor to repository
